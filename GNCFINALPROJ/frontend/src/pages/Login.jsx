@@ -123,9 +123,9 @@ function Login() {
             textAlign: 'center'
           }}>
             <p style={{ color: '#888', fontSize: '14px' }}>
-              Account nahi hai?{' '}
+              Don't Have Account?{' '}
               <Link to="/register" style={{ color: '#f84464', fontWeight: '700', textDecoration: 'none' }}>
-                Register karo
+                Register
               </Link>
             </p>
           </div>

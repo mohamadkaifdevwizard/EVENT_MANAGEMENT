@@ -12,7 +12,7 @@ function AdminDashboard() {
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem('user'));
     if (!user || user.role !== 'admin') {
-      toast.error('Admin access only!');
+     toast.error('Admin access only!');
       navigate('/');
       return;
     }

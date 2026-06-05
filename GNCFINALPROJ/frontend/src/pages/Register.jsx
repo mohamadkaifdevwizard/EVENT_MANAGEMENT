@@ -150,7 +150,7 @@ function Register() {
             <p style={{ color: '#888', fontSize: '14px' }}>
               Already account hai?{' '}
               <Link to="/login" style={{ color: '#f84464', fontWeight: '700', textDecoration: 'none' }}>
-                Login karo
+                Login
               </Link>
             </p>
           </div>
